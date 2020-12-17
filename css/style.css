@@ -1,0 +1,157 @@
+:root {
+  --green: rgb(29, 188, 134);
+  --secondary-green: rgb(243, 252, 249);
+  --bg-secondary: #005450;
+}
+
+::-webkit-scrollbar {
+  width: 0;
+  background: white;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  box-sizing: border-box;
+  /* overflow-y: scroll; */
+  width: 100%;
+}
+
+.white__color {
+  background-color: white;
+}
+
+.side {
+  padding-left: 55px;
+  padding-right: 55px;
+}
+
+.green {
+  color: var(--green);
+}
+
+.fix__top {
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+}
+
+.logo {
+  max-width: 100px;
+}
+
+.button {
+  width: 150px;
+  margin-right: 48px;
+  border-radius: 3px;
+}
+
+.green__color {
+  background-color: var(--green);
+}
+
+.pad__header {
+  padding: 16px 3px;
+  padding-left: 16px;
+}
+
+.nav {
+  font-weight: 500;
+  font-size: 17px;
+}
+
+.nav:hover {
+  text-decoration: 3px solid underline;
+  text-decoration-color: var(--green);
+  text-underline-position: under;
+}
+
+.drop {
+  top: 40%;
+  margin-left: 8%;
+  max-width: 90%;
+}
+
+.hero__text {
+  letter-spacing: 0.3rem;
+  line-height: 1.5rem;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+.text {
+  text-decoration: 1px solid underline;
+  color: var(--green);
+  font-size: 17px;
+  font-weight: 550;
+  cursor: pointer;
+}
+
+.drop2 {
+  top: 15%;
+}
+
+.work {
+  margin-top: 150px;
+  font-size: 1.6rem;
+  font-weight: 450;
+  color: #0000007d;
+}
+
+.click {
+  text-align: center;
+  margin-top: 70px;
+}
+
+.text-p {
+  color: #646567;
+  padding: 8px 8px;
+  font-size: 1.12rem;
+}
+
+.image {
+  width: 80%;
+  margin-top: 40px;
+  margin: auto;
+  position: relative;
+}
+
+.small {
+  font-size: 0.9rem;
+}
+
+.btn__size {
+  padding: 10px 22px;
+}
+
+.testimonial {
+  background-color: var(--secondary-green);
+}
+
+.card {
+  background-color: var(--green);
+}
+
+.text-pp {
+  margin-top: 17%;
+  width: 90%;
+}
+
+.started {
+  background-color: var(--bg-secondary);
+}
+
+.align {
+  align-self: center;
+  text-align: right;
+}
+
+.align-end {
+  align-self: center;
+  text-align: center;
+}
+
+.btn__size2 {
+  padding: 10px 30px;
+}
