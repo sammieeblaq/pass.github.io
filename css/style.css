@@ -22,6 +22,11 @@ body {
   background-color: white;
 }
 
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+
 .side {
   padding-left: 55px;
   padding-right: 55px;

@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="./css/boostrap/bootstrap.min.css">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
 
     <!-- Fonts -->
     <link rel="stylesheet" href="./fonts/fontawesome-free-5.15.1-web/css/all.min.css">
@@ -16,12 +18,14 @@
 
     <!-- JavaScript Imports -->
     <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
     <title>Pass</title>
 </head>
 
 <body>
     <!-- Header -->
-    <div>
+    <div data-aos="fade-down" data-aos-duration="3000">
         <div class="fix__top">
             <header>
                 <div>
@@ -57,7 +61,7 @@
 
     <!-- Body -->
     <div>
-        <div class="side">
+        <div class="side" data-aos="fade-down-right" data-aos-duration="3000">
             <div class="row">
                 <div class="col-12 col-md-6">
                     <div class="position-relative drop">
@@ -83,7 +87,7 @@
                     </div>
                 </div>
             </div>
-            <div class="row work">
+            <div class="row work" data-aos="fade-down-right" data-aos-duration="3000">
                 <div class="col-md-3 col-sm-12 text-center">
                     Work's With:
                 </div>
@@ -96,7 +100,7 @@
                     </div>
                 </div>
             </div>
-            <div class="row click">
+            <div class="row click" data-aos="fade-down-right" data-aos-duration="3000">
                 <div class="col m-auto">
                     <h4 style="font-size: 2.125rem;">Say bye-bye to checkout forms</h4>
                     <p class="text-p">The days of filling your Name, email, billing address, shipping address,
@@ -104,14 +108,14 @@
                         are gone. All it takes now is one click.</p>
                 </div>
             </div>
-            <div class="row">
+            <div class="row" data-aos="fade-down-right" data-aos-duration="3000">
                 <div class="col">
                     <div class="image">
                         <img src="./img/shop.png" class="img-fluid" alt="">
                     </div>
                 </div>
             </div>
-            <div class="row" style="margin-top: 100px;">
+            <div class="row" data-aos="fade-down-right" style="margin-top: 100px;">
                 <div class="col-md-6">
                     <img src="./img/three-pix.png" alt="">
                 </div>
@@ -152,7 +156,7 @@
     </div>
 
     <!-- Testimonial -->
-    <div class="testimonial mt-5">
+    <div class="testimonial mt-5" data-aos="fade-down-right" data-aos-duration="3000">
         <div class="row justify-content-center">
             <div class="">
                 <div>
@@ -178,7 +182,7 @@
     </div>
 
     <!-- Card -->
-    <div class="card p-2">
+    <div class="card p-2" data-aos="fade-down-right" data-aos-duration="3000">
         <div class="row">
             <div class="col-md-6">
                 <div>
@@ -200,7 +204,7 @@
         </div>
     </div>
 
-    <div class="row p-3 mb-4" style="margin-top: 100px;">
+    <div class="row p-3 mb-4" data-aos="fade-down-right" data-aos-duration="3000" style="margin-top: 100px;">
         <div class="col-md-6">
             <div style="padding-left: 60px; max-height: 85%">
                 <img src="./img/formNew.svg" alt="">
@@ -237,7 +241,7 @@
         </div>
     </div>
 
-    <div class="started p-4">
+    <div class="started p-4" data-aos="fade-down-right" data-aos-duration="3000">
         <div class="row green__color p-5" style="margin: 12px 30px;">
             <div class="col-md-4 text-white">
                 <h4>Ready to get started?</h4>
@@ -256,7 +260,7 @@
     </div>
 
     <!-- Footer -->
-    <div class="footer">
+    <div class="footer" data-aos="fade-down-right" data-aos-duration="3000">
         <div class="row" style="margin-bottom: 40px; padding: 73px; font-size: 14.5px;">
             <div class="col-md-3">
                 <div>
@@ -313,6 +317,11 @@
 
         </div>
     </div>
+
+
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>
