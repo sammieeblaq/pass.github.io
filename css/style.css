@@ -160,3 +160,52 @@ body {
 .btn__size2 {
   padding: 10px 30px;
 }
+
+@media only screen and (max-width: 375px) {
+  .fix__top {
+    display: none;
+  }
+
+  .hide__button {
+    display: none;
+  }
+
+  .mobile {
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+  }
+
+  .drop {
+    top: 10%;
+    width: 100%;
+    padding: 2px;
+    margin-bottom: 35px;
+    text-align: center;
+  }
+
+  .drop2 {
+    /* top: 40%;
+    margin-bottom: 20px; */
+    display: none;
+  }
+
+  .wide {
+    width: 100%;
+    padding: 15px;
+    text-align: center;
+  }
+
+  .topp {
+    margin-top: 150px;
+  }
+  .topp1 {
+    margin-top: 50px;
+  }
+}
+
+@media only screen and (min-width: 375px) {
+  .mobile {
+    display: none;
+  }
+}
