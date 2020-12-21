@@ -2,349 +2,371 @@
 <html dir="ltr" lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- CSS Imports -->
-    <link rel="stylesheet" href="./css/boostrap/bootstrap.min.css">
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <!-- CSS Imports -->
+  <link rel="stylesheet" href="./css/boostrap/bootstrap.min.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
 
-    <!-- Fonts -->
-    <link rel="stylesheet" href="./fonts/fontawesome-free-5.15.1-web/css/all.min.css">
-    <!-- <link rel="stylesheet" href="./fonts/fontawesome-free-5.15.1-web/css/fontawesome.min.css"> -->
+  <!-- Fonts -->
+  <link rel="stylesheet" href="./fonts/fontawesome-free-5.15.1-web/css/all.min.css">
+  <!-- <link rel="stylesheet" href="./fonts/fontawesome-free-5.15.1-web/css/fontawesome.min.css"> -->
 
-    <!-- JavaScript Imports -->
-    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <!-- JavaScript Imports -->
+  <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
-    <title>Pass</title>
+  <title>Pass</title>
 </head>
 
 <body>
-    <!-- Header -->
-    <div class="mobile">
-        <header>
-            <nav class="p-3">
-                <div class="row">
-                    <div class="col">
-                        <a>
-                            <img src="./img/pass.svg" class="img-fluid" width="60%" alt="">
-                        </a>
-                    </div>
+  <!-- Header -->
+  <div class="mobile">
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03"
+        aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="icon">
+        <a>
+          <img src="./img/pass.svg" class="img-fluid" width="50%" alt="">
+        </a>
+      </div>
 
-                    <div class="col">
-                        <div class="pr-2 text-right">
-                            <img src="./img/icon-hamburger.svg" class="img-fluid" alt="">
-                        </div>
-                    </div>
-                </div>
-            </nav>
-        </header>
-    </div>
+      <div class="collapse navbar-collapse p-2" id="navbarTogglerDemo03">
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Seller</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Shop</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Pricing</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Blog</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Programs</a>
+          </li>
+        </ul>
+      </div>
+
+    </nav>
+  </div>
 
 
-    <!-- Main Header -->
-    <!-- <div data-aos="fade-down" data-aos-duration="3000"> -->
-    <div class="fix__top">
-        <header>
+  <!-- Main Header -->
+  <!-- <div data-aos="fade-down" data-aos-duration="3000"> -->
+  <div class="fix__top">
+    <header>
+      <div>
+        <nav class="navbar navbar-expand-lg bg-white d-flex justify-content-between align-items-center p-4">
+          <img src="./img/pass.svg" class="img-fluid logo ml-3" alt="">
+          <div class="mr-5">
+            <ul class="navbar-nav">
+              <li class="nav-item p-1">
+                <a class="nav-link text-dark nav" href="#">Seller</a>
+              </li>
+              <li class="nav-item p-1">
+                <a class="nav-link text-dark nav" href="#">Shop</a>
+              </li>
+              <li class="nav-item p-1">
+                <a class="nav-link text-dark nav" href="#">Pricing</a>
+              </li>
+              <li class="nav-item p-1">
+                <a class="nav-link text-dark nav" href="#">Blog</a>
+              </li>
+              <li class="nav-item p-1">
+                <a class="nav-link text-dark nav" href="#">Programs</a>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <button class="btn green__color text-white button">Login</button>
+          </div>
+        </nav>
+      </div>
+    </header>
+  </div>
+  <!-- </div> -->
+
+  <!-- Body -->
+  <div>
+    <!-- <div class="side" data-aos="fade-down-right" data-aos-duration="3000"> -->
+    <div class="side" data-aos="fade-down-right" data-aos-duration="3000">
+      <div class="row">
+        <div class="col-md-6 col-sm-12">
+          <div class="position-relative drop">
+            <div style="font-size: 2.0rem;">
+              <p>With Pass, checking out on an online store
+                only takes 1 click.</p>
+            </div>
+            <div class="mb-3 hero__text">
+              <p>By reducing the whole checkout process to a single click, Pass is making the online
+                shopping experience a much less tedious experience.
+              </p>
+            </div>
             <div>
-                <nav class="navbar navbar-expand-lg bg-white d-flex justify-content-between align-items-center p-4">
-                    <img src="./img/pass.svg" class="img-fluid logo ml-3" alt="">
-                    <div class="mr-5">
-                        <ul class="navbar-nav">
-                            <li class="nav-item p-1">
-                                <a class="nav-link text-dark nav" href="#">Seller</a>
-                            </li>
-                            <li class="nav-item p-1">
-                                <a class="nav-link text-dark nav" href="#">Shop</a>
-                            </li>
-                            <li class="nav-item p-1">
-                                <a class="nav-link text-dark nav" href="#">Pricing</a>
-                            </li>
-                            <li class="nav-item p-1">
-                                <a class="nav-link text-dark nav" href="#">Blog</a>
-                            </li>
-                            <li class="nav-item p-1">
-                                <a class="nav-link text-dark nav" href="#">Programs</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div>
-                        <button class="btn green__color text-white button">Login</button>
-                    </div>
-                </nav>
+              <button class="btn green__color text-white btn__size">Create
+                Account</button>
+              <p class="text mt-3">Get Pass For Your Online Store</p>
             </div>
-        </header>
-    </div>
-    <!-- </div> -->
-
-    <!-- Body -->
-    <div>
-        <!-- <div class="side" data-aos="fade-down-right" data-aos-duration="3000"> -->
-        <div class="side" data-aos="fade-down-right" data-aos-duration="3000">
-            <div class="row">
-                <div class="col-md-6 col-sm-12">
-                    <div class="position-relative drop">
-                        <div style="font-size: 2.0rem;">
-                            <p>With Pass, checking out on an online store
-                                only takes 1 click.</p>
-                        </div>
-                        <div class="mb-3 hero__text">
-                            <p>By reducing the whole checkout process to a single click, Pass is making the online
-                                shopping experience a much less tedious experience.
-                            </p>
-                        </div>
-                        <div>
-                            <button class="btn green__color text-white btn__size">Create
-                                Account</button>
-                            <p class="text mt-3">Get Pass For Your Online Store</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-sm-12">
-                    <div class=" position-relative drop2" style="margin-left: 50px;">
-                        <img src="./img/newhero.png" class="img-fluid" alt="">
-                    </div>
-                </div>
-            </div>
-            <div class="row work" data-aos="fade-down-right" data-aos-duration="3000">
-                <div class="col-md-3 col-sm-12 text-center">
-                    Work's With:
-                </div>
-                <div class="col-md-8 col-sm-12 col-xs-12 text-center">
-                    <div class="row">
-                        <div class="col-md-3">Facebook</div>
-                        <div class="col-md-3">Instagram</div>
-                        <div class="col-md-3">WhatsApp</div>
-                        <div class="col-md-3">E-commerce</div>
-                    </div>
-                </div>
-            </div>
-            <div class="row click" data-aos="fade-down-right" data-aos-duration="3000">
-                <div class="col m-auto">
-                    <h4 style="font-size: 2.125rem;">Say bye-bye to checkout forms</h4>
-                    <p class="text-p">The days of filling your Name, email, billing address, shipping address,
-                        credit card details, OTP <br>
-                        are gone. All it takes now is one click.</p>
-                </div>
-            </div>
-            <div class="row" data-aos="fade-down-right" data-aos-duration="3000">
-                <div class="col">
-                    <div class="image">
-                        <img src="./img/shop.png" class="img-fluid" alt="">
-                    </div>
-                </div>
-            </div>
-            <div class="row" data-aos="fade-down-right" style="margin-top: 100px;">
-                <div class="col-md-6">
-                    <img src="./img/three-pix.png" class="img-fluid" alt="">
-                </div>
-                <div class="col-md-6 mt-5">
-                    <div>
-                        <h2>Why everyone loves pass?</h2>
-                        <div class="mt-5">
-                            <h5 class="green">It's Free</h5>
-                            <p class="small">To open a Pass account is totally Free! Open at no cost and starting
-                                shopping from your
-                                favourite online vendors Seamlessly.
-                            </p>
-                        </div>
-                        <div class="mt-4">
-                            <h5 class="green">It's Fast</h5>
-                            <p class="small">It will take you less time to checkout on pass, than it took you to read
-                                this text.</p>
-                        </div>
-                        <div class="mt-4">
-                            <h5 class="green">It's Safe</h5>
-                            <p class="small">The platform has been built with advanced Security protection to keep your
-                                data safe.
-                                Your information will never be shared with a third party
-                            </p>
-                        </div>
-                        <div class="mt-5">
-                            <button class="btn green__color text-white btn__size">Create
-                                Account</button>
-                            <p class="text mt-3">Get Pass For Your Online Store</p>
-
-                        </div>
-
-                    </div>
-                </div>
-            </div>
+          </div>
         </div>
-
-    </div>
-
-    <!-- Testimonial -->
-    <div class="testimonial mt-5" data-aos="fade-down-right" data-aos-duration="3000">
-        <div class="row justify-content-center">
-            <div class="">
-                <div>
-                    <div class="row justify-content-center mt-5">
-                        <img src="./img/testimonial.png" class="img-fluid" alt="">
-                    </div>
-                    <div class="text-center mt-3">
-                        <p class="green" style="font-weight: 600;">Pass is amazing! I couldn't believe it. By using the
-                            Pass checkout on my <br>
-                            store.
-                            Sales skyrocketed. Now I earn 10 times more than I have being <br> earning without pass
-                        </p>
-                    </div>
-                    <div class="text-center mb-5">
-                        <p class="text-dark mb-3" style="font-size: 0.95rem; font-weight: 350;">Mayowa Adelaja, Shop
-                            Owner -
-                            Supershops
-                        </p>
-                    </div>
-                </div>
-            </div>
+        <div class="col-md-6 col-sm-12">
+          <div class=" position-relative drop2" style="margin-left: 50px;">
+            <img src="./img/newhero.png" class="img-fluid" alt="">
+          </div>
         </div>
-    </div>
-
-    <!-- Card -->
-    <div class="card p-2" data-aos="fade-down-right" data-aos-duration="3000">
-        <div class="row">
-            <div class="col-md-6">
-                <div>
-                    <img src="./img/card.svg" class="img-fluid" alt="">
-                </div>
-            </div>
-            <div class="col-md-6">
-                <div class="text-white text-pp">
-                    <h2>With Pass, your information is safe and secure</h2>
-                    <p class="mt-4">Our payment processors are PCI DSS compliant. This means that Pass uses a data <br>
-                        security
-                        system
-                        which
-                        ensures that sensitive information is managed in a secure <br> environment, protected from any
-                        threats.
-                    </p>
-                </div>
-            </div>
+      </div>
+      <div class="row work" data-aos="fade-down-right" data-aos-duration="3000">
+        <div class="col-md-3 col-sm-12 text-center">
+          Work's With:
         </div>
-    </div>
-
-    <div class="row p-3 mb-4" data-aos="fade-down-right" data-aos-duration="3000" style="margin-top: 100px;">
+        <div class="col-md-8 col-sm-12 col-xs-12 text-center">
+          <div class="row">
+            <div class="col-md-3">Facebook</div>
+            <div class="col-md-3">Instagram</div>
+            <div class="col-md-3">WhatsApp</div>
+            <div class="col-md-3">E-commerce</div>
+          </div>
+        </div>
+      </div>
+      <div class="row click" data-aos="fade-down-right" data-aos-duration="3000">
+        <div class="col m-auto">
+          <h4 style="font-size: 1.78rem;">Say bye-bye to checkout forms</h4>
+          <p class="text-p">The days of filling your Name, email, billing address, shipping address,
+            credit card details, OTP <br>
+            are gone. All it takes now is one click.</p>
+        </div>
+      </div>
+      <div class="row" data-aos="fade-down-right" data-aos-duration="3000">
+        <div class="col">
+          <div class="image">
+            <img src="./img/shop.png" class="img-fluid" alt="">
+          </div>
+        </div>
+      </div>
+      <div class="row" data-aos="fade-down-right" style="margin-top: 100px;">
         <div class="col-md-6">
-            <div class="form__new">
-                <img src="./img/formNew.svg" alt="">
-            </div>
+          <img src="./img/three-pix.png" class="img-fluid" alt="">
         </div>
         <div class="col-md-6 mt-5">
-            <div style="max-width: 85%; margin-top: 20px;">
-                <div>
-                    <h2>You only need to sign up once</h2>
-                    <p>Signup with Pass once and you will never have to enter your payment details during checkout.
-                        Here’s how;
-                    </p>
-                </div>
-
-                <div class="mt-5">
-                    <h5 class="green">Create an account
-                    </h5>
-                    <p class="small">Signup for an account with your name, email, phone number, shipping address and
-                        debit card details.
-                    </p>
-                </div>
-                <div class="mt-4">
-                    <h5 class="green">One-click checkout is enabled
-                    </h5>
-                    <p class="small">Your device is enabled to check out in one-click across the web.</p>
-                </div>
-                <div class="mt-4">
-                    <h5 class="green">Start Shopping
-                    </h5>
-                    <p class="small">Sit back, relax and let us help you make payment in a single click.
-                    </p>
-                </div>
+          <div>
+            <h2>Why everyone loves pass?</h2>
+            <div class="mt-5">
+              <h5 class="green">It's Free</h5>
+              <p class="small">To open a Pass account is totally Free! Open at no cost and starting
+                shopping from your
+                favourite online vendors Seamlessly.
+              </p>
             </div>
+            <div class="mt-4">
+              <h5 class="green">It's Fast</h5>
+              <p class="small">It will take you less time to checkout on pass, than it took you to read
+                this text.</p>
+            </div>
+            <div class="mt-4">
+              <h5 class="green">It's Safe</h5>
+              <p class="small">The platform has been built with advanced Security protection to keep your
+                data safe.
+                Your information will never be shared with a third party
+              </p>
+            </div>
+            <div class="mt-5">
+              <button class="btn green__color text-white btn__size">Create
+                Account</button>
+              <p class="text mt-3">Get Pass For Your Online Store</p>
+
+            </div>
+
+          </div>
         </div>
+      </div>
     </div>
 
-    <div class="started p-4" data-aos="fade-down-right" data-aos-duration="3000">
-        <div class="row green__color p-5" style="margin: 12px 30px;">
-            <div class="col-md-4 text-white">
-                <h4>Ready to get started?</h4>
-                <p>Create a pass account for free and say bye-bye to checkout forms for good!
-                </p>
+  </div>
 
-            </div>
-            <div class="col-md-4 align">
-                <img src="./img/arrow.svg" class="img-fluid" style="max-width: 15%;" alt="">
-            </div>
-            <div class="col-md-4 align-end">
-                <button class="btn bg-white green btn__size2">Create
-                    Account</button>
-            </div>
+  <!-- Testimonial -->
+  <div class="testimonial mt-5" data-aos="fade-down-right" data-aos-duration="3000">
+    <div class="row justify-content-center">
+      <div class="">
+        <div>
+          <div class="row justify-content-center mt-5">
+            <img src="./img/testimonial.png" class="img-fluid" alt="">
+          </div>
+          <div class="text-center mt-3">
+            <p class="green" style="font-weight: 600;">Pass is amazing! I couldn't believe it. By using the
+              Pass checkout on my <br>
+              store.
+              Sales skyrocketed. Now I earn 10 times more than I have being <br> earning without pass
+            </p>
+          </div>
+          <div class="text-center mb-5">
+            <p class="text-dark mb-3" style="font-size: 0.95rem; font-weight: 350;">Mayowa Adelaja, Shop
+              Owner -
+              Supershops
+            </p>
+          </div>
         </div>
+      </div>
     </div>
+  </div>
 
-    <!-- Footer -->
-    <div class="footer" data-aos="fade-down-right" data-aos-duration="3000">
-        <div class="row">
-            <div class="col-md-3">
-                <div>
-                    <img src="./img/pass.svg" class="img-fluid mb-4" style="max-width: 45%;" alt="">
-                    <p>Pass makes it easier to shop online by reducing the checkout process to a single click.
-                    </p>
-                    <div class="green" style="font-size: 1.7rem;">
-                        <span class="mr-3"><i class="fab fa-facebook"></i></span>
-                        <span class="mr-3"><i class="fab fa-twitter"></i></span>
-                        <span class="mr-3"><i class="fab fa-instagram"></i></span>
-                        <span class="mr-3"><i class="fab fa-linkedin"></i></span>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3">
-                <div>
-                    <h4 class="text-dark mb-3">Product</h4>
-                </div>
-                <div>
-                    <p>Seller</p>
-                    <p>Shop</p>
-                    <p>Pricing</p>
-                    <p>FAQ</p>
-                </div>
-            </div>
-            <div class="col-md-3">
-                <div>
-                    <h4 class="text-dark mb-3">Company</h4>
-                </div>
-                <div>
-                    <p>Security</p>
-                    <p>Privacy Policy</p>
-                    <p>Terms of Service</p>
-                    <p>Responsible Disclosure</p>
-                </div>
-            </div>
-            <div class="col-md-3">
-                <div>
-                    <h4 class="text-dark mb-3">Contact Us</h4>
-                </div>
-                <div>
-                    <p>+2348167136505</p>
-                    <p>support@ourpass.co</p>
-                    <p>Terms of Service</p>
-                    <p>29, Mambilla street, Off Aso Drive, Maitama Abuja.</p>
-                </div>
-            </div>
+  <!-- Card -->
+  <div class="card p-2" data-aos="fade-down-right" data-aos-duration="3000">
+    <div class="row">
+      <div class="col-md-6">
+        <div>
+          <img src="./img/card.svg" class="img-fluid" alt="">
         </div>
-        <hr>
-        <div class="row justify-content-center">
-            <div>
-                <p><span>&copy;</span>2020 Pass. All Rights Reserved</p>
-            </div>
-
+      </div>
+      <div class="col-md-6">
+        <div class="text-white text-pp">
+          <h2>With Pass, your information is safe and secure</h2>
+          <p class="mt-4">Our payment processors are PCI DSS compliant. This means that Pass uses a data <br>
+            security
+            system
+            which
+            ensures that sensitive information is managed in a secure <br> environment, protected from any
+            threats.
+          </p>
         </div>
+      </div>
     </div>
+  </div>
+
+  <div class="row p-3 mb-4" data-aos="fade-down-right" data-aos-duration="3000" style="margin-top: 100px;">
+    <div class="col-md-6">
+      <div class="form__new">
+        <img src="./img/formNew.svg" alt="">
+      </div>
+    </div>
+    <div class="col-md-6 mt-5">
+      <div style="max-width: 85%; margin-top: 20px;">
+        <div>
+          <h2>You only need to sign up once</h2>
+          <p>Signup with Pass once and you will never have to enter your payment details during checkout.
+            Here’s how;
+          </p>
+        </div>
+
+        <div class="mt-5">
+          <h5 class="green">Create an account
+          </h5>
+          <p class="small">Signup for an account with your name, email, phone number, shipping address and
+            debit card details.
+          </p>
+        </div>
+        <div class="mt-4">
+          <h5 class="green">One-click checkout is enabled
+          </h5>
+          <p class="small">Your device is enabled to check out in one-click across the web.</p>
+        </div>
+        <div class="mt-4">
+          <h5 class="green">Start Shopping
+          </h5>
+          <p class="small">Sit back, relax and let us help you make payment in a single click.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="started p-4" data-aos="fade-down-right" data-aos-duration="3000">
+    <div class="row green__color p-5" style="margin: 12px 30px;">
+      <div class="col-md-4 text-white">
+        <h4>Ready to get started?</h4>
+        <p>Create a pass account for free and say bye-bye to checkout forms for good!
+        </p>
+
+      </div>
+      <div class="col-md-4 align">
+        <img src="./img/arrow.svg" class="img-fluid" style="max-width: 15%;" alt="">
+      </div>
+      <div class="col-md-4 align-end">
+        <button class="btn bg-white green btn__size2">Create
+          Account</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <div class="footer" data-aos="fade-down-right" data-aos-duration="3000">
+    <div class="row">
+      <div class="col-md-3">
+        <div>
+          <img src="./img/pass.svg" class="img-fluid mb-4" style="max-width: 45%;" alt="">
+          <p>Pass makes it easier to shop online by reducing the checkout process to a single click.
+          </p>
+          <div class="green" style="font-size: 1.7rem;">
+            <span class="mr-3"><i class="fab fa-facebook"></i></span>
+            <span class="mr-3"><i class="fab fa-twitter"></i></span>
+            <span class="mr-3"><i class="fab fa-instagram"></i></span>
+            <span class="mr-3"><i class="fab fa-linkedin"></i></span>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div>
+          <h4 class="text-dark mb-3">Product</h4>
+        </div>
+        <div>
+          <p>Seller</p>
+          <p>Shop</p>
+          <p>Pricing</p>
+          <p>FAQ</p>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div>
+          <h4 class="text-dark mb-3">Company</h4>
+        </div>
+        <div>
+          <p>Security</p>
+          <p>Privacy Policy</p>
+          <p>Terms of Service</p>
+          <p>Responsible Disclosure</p>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div>
+          <h4 class="text-dark mb-3">Contact Us</h4>
+        </div>
+        <div>
+          <p>+2348167136505</p>
+          <p>support@ourpass.co</p>
+          <p>Terms of Service</p>
+          <p>29, Mambilla street, Off Aso Drive, Maitama Abuja.</p>
+        </div>
+      </div>
+    </div>
+    <hr>
+    <div class="row justify-content-center">
+      <div>
+        <p><span>&copy;</span>2020 Pass. All Rights Reserved</p>
+      </div>
+
+    </div>
+  </div>
 
 
-    <script>
-        AOS.init();
-    </script>
+  <script src="./app.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>
